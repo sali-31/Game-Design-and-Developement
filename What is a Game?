@@ -1,0 +1,66 @@
+For this analysis I chose Klondike Solitaire, the classic single-player card game played with a
+standard 52-card deck, because it's simple surface hides rich structure that maps cleanly onto
+several game design theories. After shuffling, the player deals seven tableau columns left to
+right, with one card in the first column, two in the second, and so on up to seven in the seventh;
+only the top card of each column is face up, and the remainder of the deck forms a stock that is
+turned over into a waste pile as needed. The overarching goal is to build four foundations, one
+per suit, from Ace up to King, while the tableau follows strict placement rules: cards stack in
+descending order and must alternate color (for instance, a red 6 onto a black 7); 
+when a facedown card becomes exposed, it flips face up; only a King (or a sequence starting with a King)
+may be moved to an empty tableau column; and cards can be moved to foundations in ascending
+order by suit. Depending on the variant, the player draws one or three cards from the stock at a
+time, cycling through until a win is achieved (all foundations complete) or no legal moves
+remain.
+Framed this way, Solitaire clearly satisfies Maroney’s description of a game as “a form of play
+with goals and structure”: the goal is unambiguous (complete the four foundations), and the
+structure is exacting, from alternating-color stacks and suit-constrained foundations to the Kingonly 
+rule for empty columns and the controlled pace of drawing from the stock. McGonigal’s
+definition, “activities with goals, rules, feedback, and voluntary participation”, also fits cleanly,
+and in a way that makes the design levers explicit: the goals and rules are as above; feedback is
+immediate and legible in the changing layout (each flipped card, each foundation advance, each
+blocked position communicates progress or stagnation); and voluntary participation is baked in,
+since the player chooses to start, quit, or replay without external compulsion. Under
+McGonigal’s lens, Solitaire is a poster child for how crisp rules and tight feedback loops create
+engagement even in a solitary setting. Schell’s formulation, “a problem-solving activity
+approached with a playful attitude”, casts Solitaire as a rolling constraint-satisfaction puzzle:
+every decision trades short-term gains against future flexibility (for example, moving a card to a
+foundation might seem like progress yet reduce tableau maneuverability; choosing which facedown card 
+to expose first can shape the rest of the game). The “playful attitude” appears in the
+low stakes and iterative experimentation that Solitaire invites: players often try risky move
+orders, learn from dead-ends, and restart with the curiosity of “one more attempt,” which is the
+ethos Schell emphasizes. The friction comes with Crawford’s definition, which requires “an
+interactive, goal-oriented activity, with active agents to play against, in which players (including
+active agents) can interfere with each other.” Solitaire is indeed interactive and goal-oriented, but
+it lacks an active, adaptive opponent who can interfere in response to the player’s choices; the
+shuffle introduces chance, not agency. No adversary makes countermoves; the only
+“interference” is self-inflicted through suboptimal sequencing. Thus, under Crawford’s
+taxonomy, Klondike lands outside “game” proper and nearer to “puzzle” or “contest against
+nature,” a distinction that clarifies why facing a human in chess feels categorically different from
+wrestling with a shuffled deck alone. Comparing the four definitions reveals a shared backbone,
+goals and rules/structure are present in all but are weighted differently, while the decisive 
+divergence is the requirement of opponent agency. Maroney and McGonigal comfortably include
+Solitaire because they emphasize formal properties (goals, structure, rules, feedback,
+voluntariness) that Solitaire exemplifies; Schell includes it because he privileges the cognitive
+stance of playful problem-solving; Crawford excludes it to preserve a conceptual bright line
+between puzzles and games, insisting that strategic interference among agents is central to
+“game-ness.”
+Personally, I find McGonigal’s definition the most convincing and practically useful, especially
+for design and evaluation. It offers an operational checklist, goal clarity, rule precision, feedback
+loops, and voluntariness, that predicts engagement and distinguishes free play from gameplay
+without smuggling in a multiplayer bias; it accommodates single-player phenomena like Solitaire
+or Wordle while still excluding passive media consumption that lacks rule-bound decisionmaking and 
+in-system feedback. This lens also explains why small interface choices matter:
+when Solitaire surfaces progress (e.g., a visible foundation count) or friction (e.g., a clear “no
+more moves” signal), it heightens the sense of a closed, meaningful system. At the same time,
+Crawford’s insistence on adversarial agency sharpened my intuition about the “feel” difference
+between solo and competitive experiences: introduce an interfering opponent—say, a timed race
+against an AI that locks columns or a head-to-head variant with drafting—and Solitaire would
+cross Crawford’s boundary without changing its core mechanics. After doing this analysis,
+Solitaire feels not less like a game but more precisely like a puzzle-forward game whose “gameness” 
+depends on which theoretical lens you choose; the exercise clarified that “what counts as a
+game” is not a single essence but a family resemblance organized around goals and rules, with
+opponent agency functioning as the axis that moves an activity from meditative puzzle toward
+strategic contest. In short, Klondike indisputably meets Maroney, McGonigal, and Schell; it fails
+Crawford only on the active-opponent clause; and the comparative view deepens rather than
+diminishes the category, showing how different emphases; formal structure, feedback, mindset,
+or adversarial agency, carve the same activity into overlapping, instructive shapes.
